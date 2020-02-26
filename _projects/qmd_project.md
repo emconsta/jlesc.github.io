@@ -43,6 +43,9 @@ We have interfaced PETSc with Qb@ll in a separate repository. The interface is n
 ## Results for 2018/2019
 We have tested the PETSc with Qb@ll interface. The interface is fully functional in serial and parallel. We are conducting a series of benchmarks to see what combinations of integrators performs well.
 
+## Results for 2019/2020
+We have run time integration tests with Qb@ll interfaced with PETSc. Some integrators perform well but the cost is slightly higher than expected. We are now optimizing the the time integration algorithms and exploring the adaptivity in time. In initial experiments, the adaptivity in time did not provide a significant performance boost because the simulation was relatively uniform. We are now consider more realistic cases where the adaptivity may be more relevant.
+
 ## Visits and meetings
 <!-- Since this is a starting cooperation no visits have been initiated. -->
 We had a meeting on Dev 13, 2017 - Andre visited Argonne.
